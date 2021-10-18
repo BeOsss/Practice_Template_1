@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: karla;
+    color: white;
+    word-spacing: 2px;
+    width: 65%;
+    margin: 50px auto;
+    background-color:gray;
+}
+.border-radius{
+    border-radius: 5%;
+}
+
+
+/* header*/
+
+
+header{
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+h1{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin: 20px 0;
+}
+h2{
+    margin-bottom: 20px;
+}
+.guarantee{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:hsl(71, 73%, 54%);
+}
+.header-confirm{
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+}
+
+
+/* sign up*/
+
+
+.signup{
+    float: left;
+    width:50%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 50px;
+    height: 50vh;
+    border-bottom-left-radius: 20px;
+}
+.price{
+    color: rgba(255, 255, 255, 0.514);
+    margin: 10px 0;
+}
+.signup span{
+    color:white;
+    font-size: 200%;
+}
+.btn{
+    background-color: hsl(71, 73%, 54%);
+    width: 80%; 
+    color: white;
+    font-size: 120%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 50px 10%;
+}
+
+/* description*/
+
+
+.description{
+    float: left;
+    width: 50%;
+    background-color: hsl(179, 62%, 53%);
+    padding: 50px;
+    height: 50vh;  
+    border-bottom-right-radius: 20px;
+}
+.description li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 3px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+footer{
+    visibility: hidden;
+}
